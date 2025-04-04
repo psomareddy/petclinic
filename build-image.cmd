@@ -1,0 +1,1 @@
+docker build -t petclinic-app . -f Dockerfile

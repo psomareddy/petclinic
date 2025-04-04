@@ -13,7 +13,7 @@ Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) applicatio
 #build-project.cmd
 git clone https://github.com/spring-projects/spring-petclinic.git
 cd spring-petclinic
-./mvnw package
+./mvnw package -Dmaven.test.skip
 ```
 
 Build artifact are built is spring-petclinic/target/spring-petclinic-3.4.0-SNAPSHOT.jar 
